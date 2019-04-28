@@ -1,0 +1,44 @@
+===SOAL 1===
+
+STORE resultanGaya
+STORE massaBenda with value 600
+STORE percepatanBenda with value 2
+
+CALCULATE resultanGaya = massaBenda * percepatanBenda
+
+DISPLAY "resultanGaya"
+
+===SOAL 2===
+
+STORE tahun
+
+CALCULATE IF tahun div 4 equal to 0 AND tahun div 100 not equal to 0
+    DISPLAY tahun kabisat
+ELSE 
+    IF tahun div 4 equal to 0 AND tahun div 100 equal to 0 AND tahun div 400 equal to 0
+        DISPLAY tahun kabisat
+    ELSE 
+DISPLAY bukan tahun kabisat
+
+===SOAL 3===
+
+STORE totalPakaian with value 20
+STORE hitung with value 0
+
+WHILE hitung = totalPakaian
+    IF pakaian insert to machine
+        hitung ADD 1
+
+DISPLAY nyalakan mesin cuci
+
+===SOAL 4===
+
+STORE siswaSiswi with value 40
+STORE hitung with value 0
+
+WHILE hitung = siswaSiswi
+    IF kuku = panjang
+        DISPLAY guru hukum siswa/siswi
+    ELSE  
+        DISPLAY guru memuji siswa/siswi
+hitung ADD 1
